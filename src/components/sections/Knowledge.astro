@@ -1,0 +1,53 @@
+---
+import Section from "../Section.astro";
+import { Kenntnisse } from "@cv";
+---
+
+<Section title="Kenntnisse">
+  <ul>
+    {
+      Kenntnisse.map(({ language, fluency }) => (
+        <li>
+          <div>
+            <h3>{language}</h3>
+            <p>{fluency}</p>
+          </div>
+        </li>
+      ))
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.2rem 0.6rem;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  h3 {
+    margin: 0;
+    font-weight: 500;
+    color: #111;
+  }
+</style>

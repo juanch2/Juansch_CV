@@ -1,0 +1,87 @@
+---
+import Section from "../Section.astro";
+
+import { skills } from "@cv";
+import HTML from "@/icons/Html.astro";
+import CSS from "@/icons/Css.astro";
+import JavaScript from "@/icons/JavaScript.astro";
+import MySQL from "@/icons/Sql.astro";
+import GitHub from "@/icons/GitHub.astro";
+import Python from "@/icons/Python.astro";
+
+const SKILLS_ICONS: Record<string, any> = {
+  HTML,
+  CSS,
+  JavaScript,
+  MySQL,
+  GitHub,
+  Python,
+};
+---
+
+<Section title="Skills">
+  <ul>
+    {
+      skills.map(({ name, Überschrift, summary }) => {
+        const iconName: string = name || "";
+        const Icon = SKILLS_ICONS[iconName];
+
+        return (
+          <li>
+            <header>
+              <div>
+                <h3>
+                  <a>{Überschrift}</a>
+                </h3>
+              </div>
+            </header>
+            <div class="Icons">
+              {Icon && <Icon />} <span>{name}</span>
+            </div>
+            <footer>
+              <p>{summary}</p>
+            </footer>
+          </li>
+        );
+      })
+    }
+  </ul>
+</Section>
+<style>
+  ul {
+    display: inline-flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  li {
+    flex-direction: column;
+    border-radius: 6px;
+    color: black;
+    display: flex;
+    font-size: 0.8rem;
+    font-weight: 500;
+    gap: 4px;
+    padding: 0.2rem 0.6rem;
+  }
+
+  h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+    font-weight: 500;
+    color: #111;
+  }
+  .Icons {
+    align-items: center;
+    border-radius: 6px;
+    color: black;
+    display: flex;
+    font-size: 0.8rem;
+    font-weight: 500;
+    gap: 4px;
+    padding: 0.2rem 0.6rem;
+  }
+</style>

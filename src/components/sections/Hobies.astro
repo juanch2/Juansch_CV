@@ -1,0 +1,32 @@
+---
+import Section from "../Section.astro";
+import { Hobbys } from "@cv";
+---
+
+<Section title="Hobbys">
+  <ul>
+    {
+      Hobbys.map(({ name }) => (
+        <li>
+          <p>{name}</p>
+        </li>
+      ))
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: inline-flex;
+    gap: 8px;
+  }
+
+  li {
+    border-radius: 6px;
+
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.2rem 0.6rem;
+  }
+</style>

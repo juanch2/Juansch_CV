@@ -1,0 +1,138 @@
+{
+    "basics": {
+      "name": "Juan Stevan Chaparro",
+      "label": "Einsteiger in die Programmierung",
+      "image": "https://avatars.githubusercontent.com/u/159626693?u=be3c224ac18a373e59ba8b2a3e722bf7e737cbac&v=4",
+      "email": "sttevan21@gmail.com",
+      "phone": " +49 17657997392",
+      "summary": " Ich bin Juan, ein passionierter Programmierer, der gerade seine ersten Schritte in der aufregenden Welt der Softwareentwicklung macht. Obwohl ich relativ neu auf diesem Gebiet bin, sind mein Enthusiasmus und mein Wissensdurst unstillbar.",
+      "location": {
+        "address": "Brunnenweg 34",
+        "postalCode": "21643",
+        "city": "Beckdorf, Niedersachsen",
+        "countryCode": "DE",
+        "region": "Deutschland"
+      },
+      "profiles": [
+        {
+          "network": "GitHub",
+          "username": "juanch2",
+          "url": "https://github.com/juanch2"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "Implancast",
+        "position": " • Fachkraft Lagerlogistik ",
+        "startDate": "2023-07-01",
+        "endDate": null,
+        "summary": "Durchführung von Aufgaben in den verschiedenen Bereichen der Lagerlogistik: Kommissionierung, Verpackung, Wareneingang , Warenausgang , usw.",
+        "highlights": [
+          ""
+        ]
+      },
+      {
+        "name": "ProPersonal Service",
+        "position": " • Fachkraft Lagerlogistik ",
+        "startDate": "2022-01",
+        "endDate": "2022-08",
+        "summary": "Durchführung von Aufgaben in den verschiedenen Bereichen der Lagerlogistik: Kommissionierung, Verpackung, Wareneingang , Warenausgang , usw.",
+        "highlights": [
+          ""
+        ]
+      },
+      {
+        "name": "Wilhelm Fricke SE, Bereich Granit",
+        "position": " • Fachkraft Lagerlogistik ",
+        "startDate": "2020-12-01",
+        "endDate": "2021-08-01",
+        "summary": "Durchführung von Aufgaben in den verschiedenen Bereichen der Lagerlogistik: Kommissionierung, Verpackung, Wareneingang , Warenausgang , usw.",
+        "highlights": [
+          ""
+        ]
+      }
+    ],
+   
+    "education": [{
+      "institution": "' Braulio Gonzales College ' Grundschule und College in Kolumbien",
+      "Abschluss": " • Mittlerer Schulabschluss",
+      "startDate": "2012",
+      "endDate": "2017"
+      
+    }],
+    "skills" :[
+      {
+        "Überschrift":"Programmiersprachen & Technologien: ",
+        "summary":" • Dies sind einige der Technologien, die ich kenne und in denen ich mich weiterentwickle:"},
+        {
+        "name": "HTML",
+        "keywords": [
+          "Desarrollo Web", "Frontend"
+        ]
+      },
+      {
+        "name": "CSS",
+         "keywords": [
+          "Desarrollo Web", "Frontend", "Diseño Responsive"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "keywords": [
+          "web entw", "Frontend", "Backend", "Fullstack"
+        ]
+      },
+      {
+        "name": "Python",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+        ]
+      },
+      {
+        "name": "MySQL", 
+        "keywords": [
+          "Database", "SQL", "Backend"
+        ]
+      },
+      
+      {
+        "name": "GitHub",
+        
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        ]
+      }
+      
+    
+    ],
+    "Kenntnisse": [
+      {
+        "language": " • Spanish",
+        "fluency": "fließend in Wort und Schrift"
+      },
+      {
+        "language": " • Deutsch",
+        "fluency": "Gute Kenntnisse in Wort und Schrift"
+      },
+      {
+        "language": " • Englisch",
+        "fluency": "Gute Kenntnisse in Wort und Schrift"
+      },
+      {
+        "language": " • EDV-kenntnisse",
+        "fluency": "Gute Kenntnisse im Umgang mit Office und Excel"
+      }
+    
+    ],
+    "Hobbys": [{
+      "name": " • Sports"
+    },
+    {
+      "name": " • Lesen"
+    },
+    {
+      "name": " • Musik"
+    }
+  ]
+  }
