@@ -53,7 +53,7 @@ const { title } = Astro.props;
   }
 
   *,
-  * ::before,
+  *::before,
   **::after {
     box-sizing: border-box;
   }
@@ -104,5 +104,11 @@ const { title } = Astro.props;
     .no-print .print-info {
       visibility: hidden;
     }
+  }
+  astro-dev-toolbar {
+    display: none !important;
+  }
+  article {
+    break-inside: avoid;
   }
 </style>
